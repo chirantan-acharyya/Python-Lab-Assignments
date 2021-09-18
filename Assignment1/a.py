@@ -18,9 +18,8 @@ print("New Word=",c)
 
 #Sum of three tuple elements
 a=(12,7,33)
-sum=0
-sum=a[0]+a[1]+a[2]
-print("Sum =",sum)
+
+print("Sum =",sum(a))
 
 #Print Substring   
 s='This is a Hello World Program'
