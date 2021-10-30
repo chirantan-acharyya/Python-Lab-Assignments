@@ -10,8 +10,8 @@ y = int(0)
 s = int(0)
 i=int(0)
 while n != 0:
-    i = n % 10
-    if i % 2 == 0:
+    i = int(n % 10)
+    if i&2 == 0:
         x = x + i
     else:
         y = y + i

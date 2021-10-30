@@ -8,7 +8,7 @@ s1 = 0
 s2 = 0
 l1 = list(map(int, input().split()))
 for i in range(len(l1)):
-    if i % 2 != 0:
+    if i & 2 == 1:
         s1 = s1 + l1[i]     # odd index
 
     else:
